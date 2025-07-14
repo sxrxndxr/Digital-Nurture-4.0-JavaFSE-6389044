@@ -1,0 +1,14 @@
+<bean id="employeeList" class="java.util.ArrayList">
+    <constructor-arg>
+        <list>
+            <bean class="com.cognizant.springlearn.model.Employee">
+                <property name="id" value="1" />
+                <property name="name" value="John" />
+            </bean>
+            <bean class="com.cognizant.springlearn.model.Employee">
+                <property name="id" value="2" />
+                <property name="name" value="Jane" />
+            </bean>
+        </list>
+    </constructor-arg>
+</bean>
